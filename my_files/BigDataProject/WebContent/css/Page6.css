@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../icons/background.jpg");
+	font-family: Arial, Helvetica;
+	margin: 0
+}
+
+.header{
+	background-color: #003366;
+	text-align: center;
+}
+
+.header h1{
+	font-size: 50px;
+	color:white;
+	display:inline;
+}
+
+.header h1:hover{
+	color:black
+}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+
+.page6Row1{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:680px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+
+.page6Row2{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:800px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+
+.page6Row3{
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+	width:750px;
+	text-align: left;
+}
+
+.page6Row3 div{
+	padding:8px;
+	border-style: solid;
+	flex:33%;
+}
+
+.footer{
+	position:relative;
+	top:250px;
+	background-color: black;
+	padding: 30px;
+	text-align: center;
+	color:white;
+}

@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "Tweet",
+  "namespace" : "hadoop.ecosystem",
+  "fields" : [ {
+    "name" : "text",
+    "type" : "string",
+    "doc"  : "The content of the user's Twitter message"
+  }, {
+    "name" : "followers_count",
+    "type" : "int",
+    "doc"  : "The total followers of the account that posted the Tweet"
+  }, {
+    "name" : "statuses_count",
+    "type" : "int",
+    "doc"  : "The total Tweets the account has posted"
+  } ],
+  "doc" : "A schema for storing Twitter messages"
+}

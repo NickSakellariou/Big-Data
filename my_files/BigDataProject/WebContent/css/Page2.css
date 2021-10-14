@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../icons/background.jpg");
+	font-family: Arial, Helvetica;
+	margin: 0
+}
+
+.header{
+	background-color: #003366;
+	text-align: center;
+}
+
+.header h1{
+	font-size: 50px;
+	color:white;
+	display:inline;
+}
+
+.header h1:hover{
+	color:black
+}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+
+.page2Row1{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:530px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+
+.page2Row2{
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+	width:750px;
+	text-align: left;
+}
+
+.page2Row2 div{
+	padding:8px;
+	border-style: solid;
+	flex:33%;
+}
+
+.page2Row3{
+	background-color: white;
+	color: black;
+	text-align: center;
+	width:350px;
+	margin: auto;
+	border-radius:25px;
+	box-shadow:1px 1px 1px white;
+}
+
+.footer{
+	position:relative;
+	top:250px;
+	background-color: black;
+	padding: 30px;
+	text-align: center;
+	color:white;
+}
