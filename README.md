@@ -6,4 +6,4 @@ This is a project that collects and analyzes Twitter data in order to find out w
 
 First page :
 
-![Home page](images/first_page.png?raw=true "First page")
+![First page](images/first_page.png?raw=true "First page")
